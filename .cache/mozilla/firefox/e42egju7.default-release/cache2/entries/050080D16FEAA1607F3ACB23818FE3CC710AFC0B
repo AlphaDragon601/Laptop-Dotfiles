@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Install Qt 5 on openSUSE - Qt Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Install_Qt_5_on_openSUSE","wgTitle":"Install Qt 5 on openSUSE","wgCurRevisionId":17673,"wgRevisionId":17673,"wgArticleId":3991,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Install_Qt_5_on_openSUSE","wgRelevantArticleId":3991,"wgRequestId":"b17a7080ff40b1212531cab0","wgCSPNonce":false,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":false,"usePageDescriptions":false},"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.searchSuggest","ext.moderation.notify","ext.moderation.notify.desktop","ext.moderation.ve","ext.moderation.ajaxhook","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.33.2"/>
+<link rel="shortcut icon" href="/favicon.ico?t=2016041300"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Qt Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//wiki.qt.io/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="Qt Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/load.php?lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Install_Qt_5_on_openSUSE rootpage-Install_Qt_5_on_openSUSE skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Install Qt 5 on openSUSE</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Qt Wiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="langswitch">
+<p><a class="mw-selflink selflink">En</a>
+<span style="color:#ccc;">Ar</span>
+<span style="color:#ccc;">Bg</span>
+<span style="color:#ccc;">De</span>
+<span style="color:#ccc;">El</span>
+<span style="color:#ccc;">Es</span>
+<span style="color:#ccc;">Fa</span>
+<span style="color:#ccc;">Fi</span>
+<span style="color:#ccc;">Fr</span>
+<span style="color:#ccc;">Hi</span>
+<span style="color:#ccc;">Hu</span>
+<span style="color:#ccc;">It</span>
+<span style="color:#ccc;">Ja</span>
+<span style="color:#ccc;">Kn</span>
+<span style="color:#ccc;">Ko</span>
+<span style="color:#ccc;">Ms</span>
+<span style="color:#ccc;">Nl</span>
+<span style="color:#ccc;">Pl</span>
+<span style="color:#ccc;">Pt</span>
+<span style="color:#ccc;">Ru</span>
+<span style="color:#ccc;">Sq</span>
+<span style="color:#ccc;">Th</span>
+<span style="color:#ccc;">Tr</span>
+<span style="color:#ccc;">Uk</span>
+<span style="color:#ccc;">Zh</span>
+</p>
+</div>
+<p>This article describes the installation of Qt 5.4.1 on openSUSE 13.2. 
+</p>
+<ol><li>Download the latest unified Qt linux installer: <b>wget <a rel="nofollow" class="external free" href="http://download.qt.io/official_releases/online_installers/qt-unified-linux-x64-online.run">http://download.qt.io/official_releases/online_installers/qt-unified-linux-x64-online.run</a></b></li>
+<li>Make the downloaded file executable: <b>chmod +x qt-unified-linux-x64-online.run</b></li>
+<li>Become superuser: <b>su</b> (password)</li>
+<li>Install gcc, make and friends: <b>zypper install --type pattern devel_basis</b></li>
+<li>Install Qt: <b>./qt-unified-linux-x64-online.run</b></li>
+<li>Follow the graphical setup</li></ol>
+<!-- 
+NewPP limit report
+Cached time: 20220922191136
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.012 seconds
+Real time usage: 0.031 seconds
+Preprocessor visited node count: 101/1000000
+Preprocessor generated node count: 620/1000000
+Post‚Äêexpand include size: 2367/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 24/100
+Unstrip recursion depth: 0/20
+Unstrip post‚Äêexpand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   27.063      1 Template:LangSwitch
+100.00%   27.063      1 -total
+-->
+
+<!-- Saved in parser cache with key heroku_app_db:pcache:idhash:3991-0!canonical and timestamp 20220922191136 and revision id 17673
+ -->
+</div></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://wiki.qt.io/index.php?title=Install_Qt_5_on_openSUSE&amp;oldid=17673">https://wiki.qt.io/index.php?title=Install_Qt_5_on_openSUSE&amp;oldid=17673</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:QtLogin&amp;returnto=Install+Qt+5+on+openSUSE" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Sign in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/Install_Qt_5_on_openSUSE"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Install_Qt_5_on_openSUSE&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/Install_Qt_5_on_openSUSE" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="/index.php?title=Install_Qt_5_on_openSUSE&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Install_Qt_5_on_openSUSE&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search Qt Wiki" title="Search Qt Wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Main"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Main" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help-mediawiki"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents">Help about MediaWiki</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Install_Qt_5_on_openSUSE" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Install_Qt_5_on_openSUSE" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=Install_Qt_5_on_openSUSE&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=Install_Qt_5_on_openSUSE&amp;oldid=17673" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=Install_Qt_5_on_openSUSE&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 31 May 2015, at 22:30.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/Qt_Wiki:Privacy_policy" title="Qt Wiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/Qt_Wiki:About" title="Qt Wiki:About">About Qt Wiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/Qt_Wiki:General_disclaimer" title="Qt Wiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+
+<!--
+            <a href="https://hubs.ly/H0CwJwd0" target="_blank">
+                <img src="https://f.hubspotusercontent10.net/hubfs/149513/Qt6_email_launch_hero_1-1_transparent.png" style="max-width: 100%; margin-bottom: 1em" />
+            </a>
+            <h4>Qt 6 Released! Learn more about the <a href="https://hubs.ly/H0CwJwd0" target="_blank">next generation</a>.</h4>
+        -->
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.012","walltime":"0.031","ppvisitednodes":{"value":101,"limit":1000000},"ppgeneratednodes":{"value":620,"limit":1000000},"postexpandincludesize":{"value":2367,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":3,"limit":40},"expensivefunctioncount":{"value":24,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%   27.063      1 Template:LangSwitch","100.00%   27.063      1 -total"]},"cachereport":{"timestamp":"20220922191136","ttl":86400,"transientcontent":false}}});});</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54043535-2', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":53});});</script>
+	</body>
+</html>
+_ê–äK           c,¸õDæM¯c,¸ö   O    O^partitionKey=%28https%2Cqt.io%29,:https://wiki.qt.io/Install_Qt_5_on_openSUSE strongly-framed 1 security-info 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 request-method GET request-Accept-Encoding gzip, deflate, br request-Cookie +1llcwBoCdr6ClLkLqeUIVriZFw= response-head HTTP/1.1 200 OK
+Date: Fri, 23 Sep 2022 00:22:46 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+Content-Language: en
+Vary: Accept-Encoding,Cookie
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: private, must-revalidate, max-age=0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: same-origin
+Content-Security-Policy: default-src 'self';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com https://ssl.google-analytics.com https://www.googletagmanager.com;script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com;style-src 'self' 'unsafe-inline' https://translate.googleapis.com;style-src-elem 'self' 'unsafe-inline' https://translate.googleapis.com;font-src 'self' data: https://d33sqmjvzgs8hq.cloudfront.net https://fonts.gstatic.com https://use.typekit.net ;connect-src 'self' https://www.google-analytics.com https://stats.g.doubleclick.net https://translate.googleapis.com;object-src 'none';upgrade-insecure-requests;frame-ancestors 'self';form-action 'self';img-src 'self' data: https://translate.googleapis.com https://felgo.com https://www.google-analytics.com https://www.gstatic.com/images https://doc.qt.io https://qt-wiki-uploads.s3.amazonaws.com https://www.google.com https://www.google.fi https://www.google.de https://www.google.co.jp https://www.google.co.kr https://www.google.ru https://www.google.co.in https://www.google.fr https://qt-files.s3.eu-west-1.amazonaws.com; report-uri https://theqtcompany.report-uri.com/r/d/csp/enforce
+Last-Modified: Wed, 14 Sep 2022 06:13:42 GMT
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 vegur
+ original-response-headers Connection: keep-alive
+Date: Fri, 23 Sep 2022 00:22:46 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+Content-Language: en
+Vary: Accept-Encoding,Cookie
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: private, must-revalidate, max-age=0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: same-origin
+Content-Security-Policy: default-src 'self';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com https://ssl.google-analytics.com https://www.googletagmanager.com;script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com;style-src 'self' 'unsafe-inline' https://translate.googleapis.com;style-src-elem 'self' 'unsafe-inline' https://translate.googleapis.com;font-src 'self' data: https://d33sqmjvzgs8hq.cloudfront.net https://fonts.gstatic.com https://use.typekit.net ;connect-src 'self' https://www.google-analytics.com https://stats.g.doubleclick.net https://translate.googleapis.com;object-src 'none';upgrade-insecure-requests;frame-ancestors 'self';form-action 'self';img-src 'self' data: https://translate.googleapis.com https://felgo.com https://www.google-analytics.com https://www.gstatic.com/images https://doc.qt.io https://qt-wiki-uploads.s3.amazonaws.com https://www.google.com https://www.google.fi https://www.google.de https://www.google.co.jp https://www.google.co.kr https://www.google.ru https://www.google.co.in https://www.google.fr https://qt-files.s3.eu-west-1.amazonaws.com; report-uri https://theqtcompany.report-uri.com/r/d/csp/enforce
+Last-Modified: Wed, 14 Sep 2022 06:13:42 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 vegur
+ ctid 1 uncompressed-len 0 net-response-time-onstart 1518 net-response-time-onstop 1658   ;π

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-html
+Name=powerreport.html
+Type=Link
+URL[$e]=file:$HOME/powerreport.html
+X-KDE-LastOpenedWith=firefox

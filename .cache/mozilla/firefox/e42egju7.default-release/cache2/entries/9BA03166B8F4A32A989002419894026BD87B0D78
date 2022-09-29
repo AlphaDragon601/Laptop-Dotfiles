@@ -1,0 +1,130 @@
+<svg class="tower-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="Neues_Verlaufsfeld_1" data-name="Neues Verlaufsfeld 1" x1="8.76" y1="6.42" x2="21.25" y2="6.42" gradientTransform="translate(30.01 12.85) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.41" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.51" stop-color="#fff" stop-opacity="0.15"/>
+      <stop offset="0.74" stop-color="#fff" stop-opacity="0.53"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_8" data-name="Unbenannter Verlauf 8" x1="21.17" y1="3.9" x2="21.17" y2="4.06" gradientUnits="userSpaceOnUse">
+      <stop offset="0.28" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.39" stop-color="#fff" stop-opacity="0.01"/>
+      <stop offset="0.48" stop-color="#fff" stop-opacity="0.06"/>
+      <stop offset="0.57" stop-color="#fff" stop-opacity="0.13"/>
+      <stop offset="0.65" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="0.73" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="0.81" stop-color="#fff" stop-opacity="0.51"/>
+      <stop offset="0.89" stop-color="#fff" stop-opacity="0.69"/>
+      <stop offset="0.97" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_5" data-name="Unbenannter Verlauf 5" x1="12.3" y1="8.53" x2="12.3" y2="4.06" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#2dc4ed" stop-opacity="0"/>
+      <stop offset="0.23" stop-color="#2dc4ed" stop-opacity="0.01"/>
+      <stop offset="0.34" stop-color="#2dc4ed" stop-opacity="0.06"/>
+      <stop offset="0.45" stop-color="#2dc4ed" stop-opacity="0.13"/>
+      <stop offset="0.55" stop-color="#2dc4ed" stop-opacity="0.24"/>
+      <stop offset="0.6" stop-color="#2dc4ed" stop-opacity="0.3"/>
+      <stop offset="0.8" stop-color="#2dc4ed" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#2dc4ed" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_5-2" x1="-15290.78" y1="8.53" x2="-15290.78" y2="4.06" gradientTransform="matrix(-1, 0, 0, 1, -15273.07, 0)" xlink:href="#Unbenannter_Verlauf_5"/>
+    <linearGradient id="Neues_Verlaufsfeld_1-2" x1="7.9" y1="10.24" x2="22.11" y2="10.24" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Neues_Verlaufsfeld_1"/>
+    <linearGradient id="Unbenannter_Verlauf_5-3" x1="5.72" y1="11.39" x2="24.28" y2="11.39" xlink:href="#Unbenannter_Verlauf_5"/>
+    <linearGradient id="Unbenannter_Verlauf_70" data-name="Unbenannter Verlauf 70" x1="15" y1="29.06" x2="15" y2="20.35" gradientUnits="userSpaceOnUse">
+      <stop offset="0.41" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.51" stop-color="#fff" stop-opacity="0.15"/>
+      <stop offset="0.74" stop-color="#fff" stop-opacity="0.53"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="Neues_Verlaufsfeld_1-3" x1="10.55" y1="21.89" x2="18.22" y2="8.59" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Neues_Verlaufsfeld_1"/>
+    <linearGradient id="Unbenannter_Verlauf_5-4" x1="5.34" y1="2.46" x2="24.67" y2="2.46" gradientTransform="translate(0 0)" xlink:href="#Unbenannter_Verlauf_5"/>
+  </defs>
+  <g style="isolation: isolate">
+    <g id="Layer_1" data-name="Layer 1">
+      <g>
+        <rect x="0.19" y="0.05" width="29.62" height="29.89" fill="none"/>
+        <g>
+          <rect x="8.76" y="3.9" width="12.49" height="5.04" transform="translate(30.01 12.85) rotate(180)" fill="#2dc4ed"/>
+          <rect x="8.76" y="3.9" width="12.49" height="5.04" transform="translate(30.01 12.85) rotate(180)" opacity="0.6" fill="url(#Neues_Verlaufsfeld_1)"/>
+          <polygon points="19.02 8.95 21.25 8.95 21.25 6.7 19.02 8.95" fill="#fff" opacity="0.2"/>
+          <polygon points="21.25 4.06 21.25 3.9 21.09 3.9 21.25 4.06" fill="url(#Unbenannter_Verlauf_8)"/>
+          <polygon points="9.22 8.94 15.67 8.94 20.66 3.9 14.21 3.9 9.22 8.94" fill="#fff" opacity="0.35"/>
+          <polygon points="12 3.9 8.76 3.9 8.76 7.17 12 3.9" fill="#fff" opacity="0.2" style="mix-blend-mode: overlay"/>
+          <rect x="8.76" y="8.52" width="12.49" height="0.46" transform="translate(30.01 17.5) rotate(180)" fill="#0d2e4f"/>
+          <rect x="8.76" y="3.9" width="12.49" height="0.54" fill="#004a72" opacity="0.33" style="mix-blend-mode: multiply"/>
+          <rect x="17.41" y="4.06" width="0.49" height="4.47" fill="#0d2e4f"/>
+          <rect x="12.11" y="4.06" width="0.49" height="4.47" fill="#0d2e4f"/>
+          <rect x="12.11" y="4.06" width="0.37" height="4.47" fill="url(#Unbenannter_Verlauf_5)"/>
+          <rect x="17.52" y="4.06" width="0.37" height="4.47" fill="url(#Unbenannter_Verlauf_5-2)"/>
+          <rect x="12.6" y="4.06" width="0.11" height="4.47" fill="#004a72" opacity="0.3"/>
+          <rect x="17.3" y="4.06" width="0.11" height="4.47" fill="#004a72" opacity="0.3"/>
+          <path d="M8.34,9l-.44,2.5H22.11L21.67,9a.12.12,0,0,0-.12-.1H8.45A.12.12,0,0,0,8.34,9Z" fill="#ffc709"/>
+          <path d="M8.34,9l-.44,2.5H22.11L21.67,9a.12.12,0,0,0-.12-.1H8.45A.12.12,0,0,0,8.34,9Z" opacity="0.45" fill="url(#Neues_Verlaufsfeld_1-2)" style="mix-blend-mode: overlay"/>
+          <path d="M8.45,8.94a.12.12,0,0,0-.11.1v0H21.67V9a.12.12,0,0,0-.12-.1Z" fill="#fff" opacity="0.38" style="mix-blend-mode: overlay"/>
+          <polygon points="7.92 11.4 22.09 11.4 21.79 9.74 8.22 9.74 7.92 11.4" fill="#814c1f" opacity="0.3" style="mix-blend-mode: multiply"/>
+          <path d="M6.17,10.19l-.45,2.5H24.28l-.44-2.5a.12.12,0,0,0-.11-.1H6.28A.12.12,0,0,0,6.17,10.19Z" fill="#0d2e4f"/>
+          <path d="M6.17,10.19l-.45,2.5H24.28l-.44-2.5a.12.12,0,0,0-.11-.1H6.28A.12.12,0,0,0,6.17,10.19Z" fill="url(#Unbenannter_Verlauf_5-3)"/>
+          <polygon points="5.87 12.05 5.72 12.69 24.29 12.69 24.14 12.05 5.87 12.05" fill="#0d2e4f" opacity="0.35" style="mix-blend-mode: multiply"/>
+          <path d="M9.87,27H20a.12.12,0,0,1,.12.12v2.72a.12.12,0,0,1-.12.12H9.87a.11.11,0,0,1-.11-.11V27.1A.12.12,0,0,1,9.87,27Z" fill="#2dc4ed"/>
+          <polyline points="9.76 29.23 9.76 26.43 20.15 26.43 20.15 29.23" fill="#2dc4ed" style="mix-blend-mode: multiply"/>
+          <path d="M9,20.35v8.59a.12.12,0,0,0,.12.12h11.7a.12.12,0,0,0,.12-.12V20.35Z" fill="#004a72"/>
+          <path d="M9,20.35v8.59a.12.12,0,0,0,.12.12h11.7a.12.12,0,0,0,.12-.12V20.35Z" opacity="0.42" fill="url(#Unbenannter_Verlauf_70)" style="mix-blend-mode: overlay"/>
+          <path d="M9,28.94a.12.12,0,0,0,.12.12h11.7a.12.12,0,0,0,.12-.12v0H9Z" fill="#0d2e4f"/>
+          <rect x="9.03" y="20.34" width="11.94" height="0.72" transform="translate(30 41.39) rotate(180)" fill="#0d2e4f"/>
+          <path d="M9,20.35h2.86a.17.17,0,0,1,.17.17v8.54a0,0,0,0,1,0,0H9a0,0,0,0,1,0,0V20.35A0,0,0,0,1,9,20.35Z" transform="translate(21.09 49.41) rotate(180)" fill="#0d2e4f" opacity="0.4" style="mix-blend-mode: multiply"/>
+          <path d="M18.07,20.35H21a0,0,0,0,1,0,0v8.71a0,0,0,0,1,0,0h-3a0,0,0,0,1,0,0V20.49a.14.14,0,0,1,.14-.14Z" transform="translate(38.91 49.41) rotate(180)" fill="#fff" opacity="0.4" style="mix-blend-mode: overlay"/>
+          <path d="M25.2,12.63H4.8a.12.12,0,0,0-.11.09l-.5,2,3.57,5.49a.22.22,0,0,0,.18.1H22.06a.22.22,0,0,0,.18-.1l3.57-5.49-.5-2A.12.12,0,0,0,25.2,12.63Z" fill="#ffc709"/>
+          <path d="M25.2,12.63H4.8a.12.12,0,0,0-.11.09l-.5,2,3.57,5.47a.24.24,0,0,0,.2.12H22a.24.24,0,0,0,.2-.12l3.57-5.47-.5-2A.12.12,0,0,0,25.2,12.63Z" fill="#ffc709"/>
+          <path d="M25.2,12.63H4.8a.12.12,0,0,0-.11.09l-.5,2,3.57,5.47a.24.24,0,0,0,.2.12H22a.24.24,0,0,0,.2-.12l3.57-5.47-.5-2A.12.12,0,0,0,25.2,12.63Z" opacity="0.63" fill="url(#Neues_Verlaufsfeld_1-3)" style="mix-blend-mode: overlay"/>
+          <path d="M11.92,20.24,8.35,14.77l.5-2A.13.13,0,0,1,9,12.63H4.8a.12.12,0,0,0-.11.09l-.5,2,3.57,5.47a.24.24,0,0,0,.2.12h4.17A.26.26,0,0,1,11.92,20.24Z" fill="#b27e4f" opacity="0.3" style="mix-blend-mode: multiply"/>
+          <path d="M18.08,20.24l3.57-5.47-.5-2a.13.13,0,0,0-.12-.09H25.2a.12.12,0,0,1,.11.09l.5,2-3.57,5.47a.24.24,0,0,1-.2.12H17.87A.26.26,0,0,0,18.08,20.24Z" fill="#fff" opacity="0.4" style="mix-blend-mode: overlay"/>
+          <path d="M6.28,10.09a.12.12,0,0,0-.11.1v0H23.84v0a.12.12,0,0,0-.11-.1Z" fill="#0d2e4f" style="mix-blend-mode: multiply"/>
+          <g>
+            <path d="M6.56,1H23.45L23.22.17a.14.14,0,0,0-.13-.1H6.88a.12.12,0,0,0-.12.1Z" fill="#ffc709"/>
+            <polygon points="6.56 1.04 23.45 1.04 23.38 0.79 6.62 0.79 6.56 1.04" fill="#b47d4f" opacity="0.3" style="mix-blend-mode: multiply"/>
+          </g>
+          <path d="M5.87,4.08H24.13A.09.09,0,0,0,24.22,4l.45-3H5.34l.45,3A.08.08,0,0,0,5.87,4.08Z" fill="#0d2e4f"/>
+          <path d="M5.87,3.88H24.13a.09.09,0,0,0,.09-.07L24.67,1H5.34l.45,2.77A.08.08,0,0,0,5.87,3.88Z" fill="url(#Unbenannter_Verlauf_5-4)"/>
+          <polygon points="24.67 1.04 5.34 1.04 5.36 1.16 24.65 1.16 24.67 1.04" fill="#fff" style="mix-blend-mode: overlay"/>
+          <polygon points="4.19 14.77 25.81 14.77 25.76 14.56 4.24 14.56 4.19 14.77" fill="#fff" opacity="0.4" style="mix-blend-mode: overlay"/>
+          <path d="M25.81,14.77H4.19l3.57,5.47a.24.24,0,0,0,.2.12H22a.24.24,0,0,0,.2-.12l3.57-5.47Z" fill="#b27e4f" opacity="0.6" style="mix-blend-mode: multiply"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+q¬?%A"      c4ÂHc4ÂHD√…^c<ë   p    O^partitionKey=%28https%2Cgit-tower.com%29,:https://www.git-tower.com/learn/assets/img/tower-icon.1664292728.svg necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 OK
+server: Apache
+last-modified: Mon, 01 Aug 2022 14:39:16 GMT
+etag: "24f2-5e52ef6d58d00"
+content-security-policy: frame-ancestors 'self';
+content-type: image/svg+xml
+via: 1.1 vegur, 1.1 varnish
+accept-ranges: bytes
+date: Thu, 29 Sep 2022 00:21:06 GMT
+age: 1895
+x-served-by: cache-dtw8029-DTW
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1664410867.938718,VS0,VE0
+strict-transport-security: max-age=300
+content-length: 9458
+X-Firefox-Spdy: h2
+ original-response-headers server: Apache
+last-modified: Mon, 01 Aug 2022 14:39:16 GMT
+etag: "24f2-5e52ef6d58d00"
+content-security-policy: frame-ancestors 'self';
+content-type: image/svg+xml
+via: 1.1 vegur, 1.1 varnish
+accept-ranges: bytes
+date: Thu, 29 Sep 2022 00:21:06 GMT
+age: 1895
+x-served-by: cache-dtw8029-DTW
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1664410867.938718,VS0,VE0
+strict-transport-security: max-age=300
+content-length: 9458
+X-Firefox-Spdy: h2
+ ctid 3 net-response-time-onstart 289 net-response-time-onstop 296   $Ú

@@ -1,0 +1,46 @@
+[KHighscore_Easy]
+0_LastPlayer=Cargle
+10_Name=-
+10_Score=-
+10_Time=-
+1_Name=Cargle
+1_Score=39
+1_Time=00:39
+2_Name=-
+2_Score=-
+2_Time=-
+3_Name=-
+3_Score=-
+3_Time=-
+4_Name=-
+4_Score=-
+4_Time=-
+5_Name=-
+5_Score=-
+5_Time=-
+6_Name=-
+6_Score=-
+6_Time=-
+7_Name=-
+7_Score=-
+7_Time=-
+8_Name=-
+8_Score=-
+8_Time=-
+9_Name=-
+9_Score=-
+9_Time=-
+
+[KgDifficulty]
+Level=Easy
+
+[KgTheme]
+Theme=themes/default.desktop
+
+[MainWindow]
+LVDS-1 Height 1280x800=720
+LVDS-1 Width 1280x800=1242
+LVDS-1 XPosition 1280x800=19
+LVDS-1 YPosition 1280x800=19
+State=AAAA/wAAAAD9AAAAAAAABNoAAAJ6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
