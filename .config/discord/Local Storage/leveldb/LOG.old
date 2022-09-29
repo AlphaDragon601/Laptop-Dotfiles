@@ -1,5 +1,0 @@
-2022/09/25-17:41:24.503 331d Creating DB /home/cargle/.config/discord/Local Storage/leveldb since it was missing.
-2022/09/25-17:41:24.517 331d Reusing MANIFEST /home/cargle/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2022/09/25-17:43:52.184 339c Level-0 table #5: started
-2022/09/25-17:43:52.203 339c Level-0 table #5: 1123117 bytes OK
-2022/09/25-17:43:52.206 339c Delete type=0 #3

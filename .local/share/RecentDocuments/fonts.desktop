@@ -1,6 +1,0 @@
-[Desktop Entry]
-Icon=inode-directory
-Name=fonts
-Type=Link
-URL[$e]=file:///etc/fonts
-X-KDE-LastOpenedWith=org.kde.kate
